@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Пример использования класса dgTree</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div id='dgTree'></div>
+        <script>
+            this.tree = new dgTree(folder[0]);
+            this.tree.globalResize = (e)=>{
+                this.tree.resize();
+            };
+            window.addEventListener("resize", this.tree.globalResize, false);
+            for (let row of data) {
+                let flag = selected.obj_id === row.obj_id ? true:false;
+                let n = this.tree.root.addChild(row.name, dgTree.folderImage(), row);
+                // Сразу добавляем ноду с текстом Загрузка данных... чтобо появился +
+                createFakeNode(n);                          
+            }
+
+            this.tree.onExpand = (treeNode) => {                        
+                if (treeNode.userData.has_children === "1"){
+                    //Запрашиваем данные
+                }            
+                return true;
+            };
+
+            this.tree.onSelect = (treeNode) => {
+                //Запрашиваем при выборе без раскрытия
+                return true;
+            };
+
+            this.tree.onCollapse = (treeNode) => {            
+                createFakeNode(treeNode);
+                return true;
+            };
+            
+            function createFakeNode(node) {
+                // Добавка псевдоэлемента который весит пока не добавлены потомки
+                if (node.userData.hasOwnProperty("has_children") && node.userData.has_children !== "0")
+                    node.addChild("Загружаем данные...", "\uf1c0", {});
+            }
+        </script>
+    </body>
+</html>
