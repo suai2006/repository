@@ -1,0 +1,32 @@
+/*
+	Траст блок
+*/
+.r-col__truct{
+	padding: 0 0 7px 0;
+	height: auto;
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.4);
+/*	position: relative;*/
+	background: #F5F5F5 url(//img.9111.ru/img/head_unreg/trust_block_bg.png);
+}
+.r-col__truct-bl {
+    padding-left: 75px;
+    background: transparent url("//img.9111.ru/img/head_unreg/clock.png") no-repeat scroll 5px center;
+    height: 63px;
+    border-bottom: 1px solid #C8C8C8;
+    padding-top: 6px;
+}
+.r-col__truct-bl-time{
+	font-weight: normal;
+	font-size: 30px;
+	font-family: Verdana,sans-serif;
+	margin: 0px auto;
+	text-align: left;
+	color: #000;
+}
+.r-col__truct-bl-txt{
+	margin: 0px;
+	line-height: 24px;
+	font-size: 14px;
+	font-family: Verdana,sans-serif;
+	color: #505050;
+}

@@ -1,0 +1,13 @@
+Options +FollowSymLinks
+RewriteEngine on
+DirectoryIndex index.html index.php
+
+ErrorDocument 404 http://mysite:81/
+ErrorDocument 502 http://mysite:81/
+ErrorDocument 503 http://mysite:81/
+
+RewriteEngine On
+RewriteRule ^([a-zA-Z0-9_-]+)$ index.php?page=$1
+RewriteRule ^([a-zA-Z0-9_-]+)/$ index.php?page=$1
+RewriteCond %{REQUEST_URI} ^/index$
+RewriteRule ^.*$ http://mysite:81/? [R=301,L]

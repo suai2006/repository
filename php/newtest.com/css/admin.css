@@ -1,0 +1,64 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.admin{
+	height: 100%;
+	min-height: 100% !important;
+	height: auto;
+	overflow: hidden;
+	background: #4ebdff;
+
+}
+.clear{
+	display:block;
+	clear: both;
+	width: 100%;
+	overflow: hidden;
+}
+.admin__form{
+	width: 350px;
+    margin: 0 auto;
+    height: 200px;
+    margin-top: 250px;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid #aeaeae;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0px 3px 7px rgba(0,0,0,0.6);
+}
+.form-input,
+.form-input__btn{
+	display: block;
+	box-sizing: border-box;
+	height: 25px;
+}
+.form-input{
+	width: 100%;
+	padding: 3px;
+}
+.form-input__btn{
+	width: 150px;
+	float: right;
+}
+.admin__form-title{
+	margin-top: 0px;
+}
+.error_mess{
+	height: 15px;
+	font-size: 12px;
+	color: red;
+}
+.top
+{
+	height: 30px;
+	background: #000;
+}
+.top-menu
+{
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}

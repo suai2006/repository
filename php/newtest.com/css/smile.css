@@ -1,0 +1,117 @@
+.a_smile, .f_smile{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin-left: 3px;
+	vertical-align: top;
+}
+.a_smile{
+	cursor: pointer;
+}
+.a_smile:hover{
+	box-shadow: 0px 0px 0px 1px #a9a9a9;
+}
+.sml32{
+	background:transparent url('/css/img/im_emoji.png') no-repeat;
+}
+.sml33{
+	background:transparent url('/css/img/im_emoji.png')
+		no-repeat 0px -17px;
+}
+.sml1{
+	background:transparent url('/css/img/im_emoji.png')
+		no-repeat 0px -34px;
+}
+.sml2{
+	background:transparent url('/css/img/im_emoji.png')
+		no-repeat 0px -51px;
+}
+.sml3{
+	background:transparent url('/css/img/im_emoji.png')
+		no-repeat 0px -68px;
+}
+.sml4{
+	background: transparent url('/css/img/im_emoji.png')   no-repeat 0px -85px;
+}
+.sml5{
+	background: transparent url('/css/img/im_emoji.png')   no-repeat 0px -102px;
+}
+.sml6{
+	background: transparent url('/css/img/im_emoji.png')   no-repeat 0px -119px;
+}
+.sml7{
+	background: transparent url('/css/img/im_emoji.png')   no-repeat 0px -136px;
+}
+.sml8{
+	background: transparent url('/css/img/im_emoji.png')   no-repeat 0px -153px;
+}
+.sml9{
+	background: transparent url('/css/img/im_emoji.png')   no-repeat 0px -170px;
+}
+.sml10{
+	background: transparent url('/css/img/im_emoji.png')   no-repeat 0px -187px;
+}
+.sml11{
+	background: transparent url('/css/img/im_emoji.png')   no-repeat 0px -204px;
+}
+.sml12{
+	background: transparent url('/css/img/im_emoji.png')   no-repeat 0px -221px;
+}
+.sml13{
+	background: transparent url('/css/img/im_emoji.png')   no-repeat 0px -238px;
+}
+.sml14{
+	background: transparent url('/css/img/im_emoji.png')   no-repeat 0px -255px;
+}
+.sml15{
+	background: transparent url('/css/img/im_emoji.png')   no-repeat 0px -272px;
+}
+.sml16{
+	background: transparent url('/css/img/im_emoji.png')   no-repeat 0px -289px;
+}
+.sml17{
+	background:transparent url('/css/img/im_emoji.png')
+		no-repeat 0px -68px;
+}
+.sml18{
+	background: transparent url('/css/img/im_emoji.png')   no-repeat 0px -306px;
+}
+.sml19{
+	background: transparent url('/css/img/im_emoji.png')   no-repeat 0px -323px;
+}
+.sml20{
+	background: transparent url('/css/img/im_emoji.png')   no-repeat 0px -340px;
+}
+.sml21{
+	background: transparent url('/css/img/im_emoji.png')   no-repeat 0px -357px;
+}
+.sml22{
+	background: transparent url('/css/img/im_emoji.png')   no-repeat 0px -374px;
+}
+.sml23{
+	background: transparent url('/css/img/im_emoji.png')   no-repeat 0px -391px;
+}
+.sml24{
+	background: transparent url('/css/img/im_emoji.png')   no-repeat 0px -408px;
+}
+.sml25{
+	background: transparent url('/css/img/im_emoji.png')   no-repeat 0px -425px;
+}
+.sml26{
+	background: transparent url('/css/img/im_emoji.png')   no-repeat 0px -442px;
+}
+.sml27{
+	background: transparent url('/css/img/im_emoji.png')   no-repeat 0px -459px;
+}
+.sml28{
+	background: transparent url('/css/img/im_emoji.png')   no-repeat 0px -476px;
+}
+.sml29{
+	background: transparent url('/css/img/im_emoji.png')   no-repeat 0px -493px;
+}
+.sml30{
+	background: transparent url('/css/img/im_emoji.png')   no-repeat 0px -510px;
+}
+.sml31{
+	background: transparent url('/css/img/im_emoji.png')   no-repeat 0px -527px;
+}

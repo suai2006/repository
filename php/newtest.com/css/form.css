@@ -1,0 +1,128 @@
+*{
+	margin: 0;
+}
+.main__header-form,
+.main__header-form-input,
+.main__header-form-txt,
+.main__header-form-btn,
+.main__inner-reg-form{
+	display: block;
+}
+.main__header-form-input,
+.main__header-form-txt{
+	width:99%;
+	margin-bottom: 10px;
+}
+.main__header-form-input{
+	height: 25px;
+	padding: 0;
+}
+.main__header-form-txt{
+	height: 100px;
+	padding: 1px;
+}
+.main__header-form-btn{
+	cursor: pointer;
+	background: #DAA272;
+	border: none;
+	height:35px;
+	color: #fff;
+	border-radius: 5px;
+	font-family: verdana,sans-serif;
+	text-transform: uppercase;
+}
+.site-mess{
+	width: 540px;
+	margin: 0 auto;
+	overflow: hidden;
+	min-height: 120px;
+	border: 1px solid #bebebe;
+	margin-top: 18px;
+}
+.messages-text__textarea{
+	border: 1px solid #bebebe;
+	min-height: 69px;
+	max-height: 180px;
+	margin-top: 10px;
+	overflow: auto;
+	outline: none;
+}
+.messages-text__add_smile,
+.messages-text__add_file{
+	cursor: pointer;
+	height: 24px;
+	width: 24px;
+	float: right;
+}
+.messages-text__add_smile{
+	background: transparent url("/css/img/add_smile.png") no-repeat center center;
+	position: relative;
+}
+.messages-text__add_file{
+	background:transparent url("/css/img/add_file2.png") no-repeat center center;
+}
+form{
+	width: 540px;
+}
+.messages-text__set{
+	background: #F7F7F7;
+	border: 1px solid #bebebe;
+	border-top: none;
+}
+.messages-text__send{
+	margin-top: 10px;
+	float: right;
+}
+.messages-text__placeholder{
+	position: relative;
+	height: 0px;
+	top: 10px;
+	left: 3px;
+	color: #A9A9A9;
+	font-size: 14px;
+	font-family: verdana,sans-serif;
+}
+#name{
+	font-size: 14px;
+	font-family: verdana,sans-serif;
+}
+.add_smile__list{
+	height: 240px;
+	width: 215px;
+	background: #fff;
+	box-shadow: 0px 0px 3px 0px #000;
+	position: absolute;
+	bottom: 24px;
+	right: 0px;
+	display: none;
+	overflow: auto;
+	cursor: default;
+	filter:
+        progid:DXImageTransform.Microsoft.Shadow(color='#cccccc', Direction=45, Strength=2.5)
+        progid:DXImageTransform.Microsoft.Shadow(color='#cccccc', Direction=135, Strength=2.5)
+        progid:DXImageTransform.Microsoft.Shadow(color='#cccccc', Direction=225, Strength=2.5)
+        progid:DXImageTransform.Microsoft.Shadow(color='#cccccc', Direction=315, Strength=2.5);
+}
+.add_smile__list img{
+	cursor: pointer;
+}
+.smile,.dropodown{
+	/*height: 24px;*/
+	vertical-align: middle;
+}
+.clear{
+	display: block;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	clear: both;
+	overflow: hidden;
+	height: 0px;
+}
+
+/*
+	форма регистрации
+*/
+.main__inner-reg-form{
+	margin: 0 auto;
+}

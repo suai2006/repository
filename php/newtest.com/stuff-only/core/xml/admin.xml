@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<page title="Страница администратора" pagetitle="Зоголовок" />
+	<link href="stuff-only/core/main" text="Управление" />
+	<link href="stuff-only/core/setting" text="Настройки" />
+</root>
